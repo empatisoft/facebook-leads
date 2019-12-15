@@ -72,7 +72,7 @@ class Facebook {
         $params = array(
             "fields" => "id,ad_id,ad_name,adset_id,adset_name,campaign_id,campaign_name,created_time,custom_disclaimer_responses,field_data,form_id,home_listing,is_organic,partner_name,platform,retailer_item_id,vehicle",
             'limit' => 500,
-            //"filtering" => $filter,
+            "filtering" => $filter,
             "access_token" => $this->page_access_token
         );
 
